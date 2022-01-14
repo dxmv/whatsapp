@@ -1,0 +1,62 @@
+*{
+  font-family: 'Nunito', sans-serif;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #415a77;
+  overflow: hidden;
+  height: 100vh;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #e0e1dd;
+  height: max-content;
+  border-radius: 0.2rem;
+  border:1px solid #0d1b2a;
+}
+.form-header{
+  font-size: 2.5rem;
+  align-self: center;
+  width: 100%;
+  background-color: #1b263b;
+  text-align: center;
+  color: #e0e1dd;
+  padding: 0.5rem 0rem;
+}
+form{
+  padding: 0.6rem 0rem;
+}
+.btn-submit-form{
+  margin:2rem 0rem 1.5rem 0rem;
+  font-size: 1.5rem;
+  width: 80%;
+  border-radius: 0.5rem;
+  outline: none;
+  padding: 0.3rem;
+  background-color: #1b263b;
+  color: #e0e1dd;
+  border:2px solid #e0e1dd;
+  cursor: pointer;
+  position: relative;
+}
+.btn-submit-form:hover{
+  background-color: #778da9;
+}
+.btn-submit-form:disabled{
+  background-color: #777;
+}
+.form-para-bottom{
+  margin-bottom: 00.5rem;
+}
+.btn-text{
+  z-index: 3;
+  position: relative;
+}
+.error-form{
+  color:red;
+}

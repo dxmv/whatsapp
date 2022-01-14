@@ -1,0 +1,29 @@
+main {
+	background-color: #e0e1dd;
+	width: 100%;
+	height: 100vh;
+	padding: 40px 60px;
+	display: grid;
+	grid-template-columns: 20% 79%;
+	grid-gap: 1%;
+}
+.user-options {
+	list-style: none;
+	border: 1px solid black;
+	height: max-content;
+	border-radius: 20px;
+}
+.form-window {
+}
+.user {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.user-img {
+	margin-bottom: 10px;
+	height: 5rem;
+	width: 5rem;
+	border-radius: 3rem;
+	border: 1px solid black;
+}

@@ -1,0 +1,16 @@
+.hover-text{
+  width: max-content;
+  position: absolute;
+  left: 50%;
+  top:100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 3px 5px;
+  border:1px solid black;
+  box-sizing: border-box;
+  transition: 0.5s;
+  color:black;
+}
+.hover-component{
+  position: relative;
+}

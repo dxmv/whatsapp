@@ -1,0 +1,85 @@
+.message-box{
+  box-sizing: border-box;
+  background-color:#e0e1dd;
+  border:1px solid black;
+}
+.message-window{
+  display: grid;
+  grid-template-columns: 73% 25%;
+  grid-gap: 2%;
+  height: 100%;
+  width: 100%;
+}
+.chat-participants{
+  height: max-content;
+  padding: 1rem;
+}
+.chat-participants-delete{
+  margin-top: 1rem;
+  color: red;
+}
+.chat-participants-delete:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.chat-participants-members{
+  border-bottom: 3px solid #415a77;
+  border-top:3px solid #415a77;
+  padding: 0.5rem 0rem;
+}
+.participant{
+  display: flex;
+  align-items: center;
+  margin:0.5rem 0rem;
+}
+.chat-messages{
+  display: grid;
+  grid-template-rows: 94% 4%;
+  grid-gap: 2%;
+}
+.send-message{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border-radius: 1rem;
+  padding: 0rem 0.5rem;
+  font-size: 1.2rem;
+}
+.send-message-icon{
+  position: absolute;
+  font-size: 2rem;
+  right: 0.5rem;
+  top:0.1rem;
+}
+.send-message-icon:hover{
+  cursor: pointer;
+}
+.chat-main{
+  padding:1rem;
+  height: 100%;
+  box-sizing: border-box;
+  background-color:#e0e1dd;
+  border:1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.message{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  width: 20%;
+}
+.message-text{
+  background-color: #778da9;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  border:1px solid black;
+  padding:0.3rem 0.4rem;
+  color:white;
+  overflow-wrap: break-word;
+}
+.message-main{
+  margin-left: 0.4rem;
+  width: 100%;
+}
